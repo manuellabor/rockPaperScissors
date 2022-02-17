@@ -40,4 +40,7 @@ Starting the task
         * make move
         * display result
 
+# Implementation
+* since starting a game only makes sense with 2 players present, registration at the game controller is unneccesary
+    * instead make game object with 2 dedicated fields for each player that is initialized when the game is started
             
